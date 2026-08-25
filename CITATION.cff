@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Governance Risk Assessment System (GRAS)"
+authors:
+  - affiliation: "World Bank"
+type: software
+repository-code: "https://github.com/worldbank/your-repository-name"
+license: MIT
+date-released: 2026-08-25
+references:
+  - type: report
+    title: "Governance Risk Assessment System (GRAS): Advanced Data Analytics
+      for Detecting Fraud, Corruption, and Collusion in Public Expenditures"
+    authors:
+      - name: "World Bank"
+    series-title: "Equitable Growth, Finance and Institutions Insight - Governance"
+    year: 2023
+    license: "CC-BY-NC-3.0-IGO"
+    url: "http://hdl.handle.net/10986/40640"
+    doi: "10.1596/40640"
