@@ -1,7 +1,13 @@
 # Governance Risk Assessment System (GRAS)
-The Governance Risks Assessment System (GRAS) is a structured, data‑driven analytical framework designed to detect systematic risk patterns across large datasets and generate red flags to support risk‑based prioritization. It relies on standardized data and can link and analyze multiple sources.
+GRAS is a structured, data‑driven analytical framework designed to detect systematic risk patterns across large datasets and generate red flags to support risk‑based prioritization. It relies on standardized data and can link and analyze multiple sources. To date, it has been primarily applied to procurement data. In this context, it typically analyzes information on tenders, contracting entities, supplier participation, and award decisions. Rather than examining individual cases, GRAS assesses patterns across large numbers of tenders and applies deterministic red‑flag typologies to identify structural risk signals.
+
+GRAS outputs are traceable and standardized, enabling institutions to determine where to focus attention while preserving human judgment, due process, and legal safeguards. GRAS does not make findings of wrongdoing; its purpose is to help institutions decide where to look.
 
 ## Getting Started
+The methodology relies on a minimum data structure covering event-level information (identifiers, contracting entity, date), participation-level information (supplier identifier, award status, monetary value), and optional contextual data. Prior to analysis, data must be normalized for identifier consistency, temporal alignment, and monetary comparability. The framework is implementation-agnostic: any system that can meet this data contract can reproduce the results. 
+
+A defining feature of GRAS is its fully deterministic design: identical inputs and parameters always produce identical outputs. This is achieved through explicit universe definitions, predefined metric formulas, minimum support thresholds, and traceable evidence records. Sensitivity parameters can be adjusted for jurisdictional context without altering the underlying logic, ensuring both methodological stability and cross-jurisdiction portability.
+
 
 ## Documentation
 
