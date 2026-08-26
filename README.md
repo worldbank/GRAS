@@ -4,15 +4,14 @@ GRAS is a structured, data‑driven analytical framework designed to detect syst
 GRAS outputs are traceable and standardized, enabling institutions to determine where to focus attention while preserving human judgment, due process, and legal safeguards. GRAS does not make findings of wrongdoing; its purpose is to help institutions decide where to look.
 
 ## Getting Started
-The methodology relies on a minimum data structure covering event-level information (identifiers, contracting entity, date), participation-level information (supplier identifier, award status, monetary value), and optional contextual data. Prior to analysis, data must be normalized for identifier consistency, temporal alignment, and monetary comparability. The framework is implementation-agnostic: any system that can meet this data contract can reproduce the results. 
-
-A defining feature of GRAS is its fully deterministic design: identical inputs and parameters always produce identical outputs. This is achieved through explicit universe definitions, predefined metric formulas, minimum support thresholds, and traceable evidence records. Sensitivity parameters can be adjusted for jurisdictional context without altering the underlying logic, ensuring both methodological stability and cross-jurisdiction portability.
-
+[Placeholder for Rafael]
 
 ## Documentation
+[Placeholder for Rafael]
 
 ## Contact 
 jguerreroampara1@worldbankgroup.org
+
 agusti@worldbank.org
 
 ## License
