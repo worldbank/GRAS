@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "worldbank-gras"
+version = "0.1.0rc1"
+description = "Reference implementation of the Governance Risk Assessment System (GRAS)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE", "WB-IGO-RIDER.md"]
+authors = [
+  { name = "The World Bank" },
+]
+keywords = [
+  "anticorruption",
+  "integrity",
+  "procurement",
+  "risk-assessment",
+  "red-flags",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Government",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+  "PyYAML>=6.0,<7",
+]
+
+[project.optional-dependencies]
+dev = [
+  "build>=1.2,<2",
+  "mypy>=1.11,<2",
+  "pytest>=8.3,<9",
+  "ruff>=0.9,<1",
+  "types-PyYAML>=6.0,<7",
+]
+
+[project.scripts]
+gras = "gras.pipeline.run_all:main"
+
+[project.urls]
+Repository = "https://github.com/arizagusti/GRAS"
+Report = "https://hdl.handle.net/10986/40640"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gras = ["config/*.yaml"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.10"
+packages = ["gras"]
+strict = true
+warn_unused_ignores = true

@@ -1,0 +1,4 @@
+include CITATION.cff CHANGELOG.md CODE_OF_CONDUCT.md CONTRIBUTING.md SECURITY.md
+recursive-include docs *.md *.yml *.bib
+recursive-include examples *.csv *.json
+recursive-include tests *.py

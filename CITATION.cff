@@ -1,20 +1,39 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "Governance Risk Assessment System (GRAS)"
-authors:
-  - affiliation: "World Bank"
+message: "Unreleased review candidate. Cite the associated report below and record the exact software commit used."
 type: software
-repository-code: "https://github.com/worldbank/your-repository-name"
+title: "Governance Risk Assessment System (GRAS)"
+abstract: >-
+  A deterministic reference implementation and documentation package for the
+  Governance Risk Assessment System method for public-procurement risk analysis.
+authors:
+  - name: "The World Bank"
+version: "0.1.0rc1"
 license: MIT
-date-released: 2026-08-25
-references:
-  - type: report
-    title: "Governance Risk Assessment System (GRAS): Advanced Data Analytics
-      for Detecting Fraud, Corruption, and Collusion in Public Expenditures"
-    authors:
-      - name: "World Bank"
-    series-title: "Equitable Growth, Finance and Institutions Insight - Governance"
-    year: 2023
-    license: "CC-BY-NC-3.0-IGO"
-    url: "http://hdl.handle.net/10986/40640"
-    doi: "10.1596/40640"
+repository-code: "https://github.com/arizagusti/GRAS"
+keywords:
+  - anticorruption
+  - governance
+  - integrity
+  - procurement
+  - risk assessment
+preferred-citation:
+  type: report
+  title: >-
+    Governance Risk Assessment System (GRAS): Advanced Data Analytics for
+    Detecting Fraud, Corruption, and Collusion in Public Expenditures
+  authors:
+    - family-names: "Ortega Nieto"
+      given-names: "Daniel"
+    - family-names: "Fazekas"
+      given-names: "Mihály"
+    - family-names: "Vaz Mondo"
+      given-names: "Bianca"
+    - family-names: "Tóth"
+      given-names: "Bence"
+    - family-names: "Braem Velasco"
+      given-names: "Rafael"
+  institution:
+    name: "World Bank"
+  year: 2023
+  doi: "10.1596/40640"
+  url: "https://hdl.handle.net/10986/40640"

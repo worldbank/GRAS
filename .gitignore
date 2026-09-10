@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+build/
+dist/
+
+# Local configuration and generated outputs
+.env
+.env.*
+!.env.example
+output/
+outputs/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,35 @@
+{
+  "contract_version": "2.0.0",
+  "inputs": {
+    "bids": {
+      "file_name": "bids.csv",
+      "row_count": 42,
+      "sha256": "0d2e92e002f10edcee5b29e5a7470a06c4b65ac846a6115527bce177a56d1010"
+    },
+    "employment": {
+      "file_name": "employment.csv",
+      "row_count": 1,
+      "sha256": "c905ceaf622a8cd66c90c444160b6e36da3f1f7e97a6f62b96f82c9576658926"
+    },
+    "sanctions": {
+      "file_name": "sanctions.csv",
+      "row_count": 1,
+      "sha256": "7959ca15c7297ddbb3bf430c1d82782e0a800e0b18af3b0074dc7cc597058181"
+    },
+    "tenders": {
+      "file_name": "tenders.csv",
+      "row_count": 16,
+      "sha256": "b4b74d14990c4562a3d10f925ad94696f8ed650664d465a5efe6f247b963b086"
+    }
+  },
+  "outputs": {
+    "entity_risk_summary.csv": 2,
+    "indicator_results.csv": 19,
+    "supplier_risk_summary.csv": 12,
+    "tender_risk_summary.csv": 12
+  },
+  "package_version": "0.1.0rc1",
+  "profile_name": "balanced",
+  "profile_version": "1.0.0",
+  "run_timestamp": "2026-01-01T00:00:00Z"
+}

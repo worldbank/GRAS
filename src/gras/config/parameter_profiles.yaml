@@ -1,0 +1,26 @@
+balanced:
+  profile_version: "1.0.0"
+  single_bidder_min_awards: 4
+  single_bidder_ratio_medium: 0.60
+  single_bidder_ratio_high: 0.75
+  top_loser_min_participations: 8
+  top_loser_success_medium: 0.12
+  top_loser_success_high: 0.06
+  top_loser_winner_min_links: 2
+  coaward_min_events_together: 2
+  coaward_rate_medium: 0.65
+  coaward_rate_high: 0.80
+  association_min_support: 0.05
+  association_min_confidence: 0.65
+  group_min_recurrence: 2
+  group_exclusivity_high: 0.80
+  group_turn_taking_cv: 0.25
+  group_dominance_share: 0.70
+  influence_baseline_max: 0.25
+  influence_conditional_min: 0.50
+  influence_gap_min: 0.20
+  network_min_pf_count: 1
+  network_min_pf_share: 0.34
+  repeated_address_min_suppliers: 2
+  repeated_address_min_events: 2
+  employee_bidder_min_participations: 1
