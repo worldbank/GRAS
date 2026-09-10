@@ -1,0 +1,5 @@
+title: Governance Risk Assessment System (GRAS)
+description: Generic reference implementation and documentation for the GRAS method.
+theme: jekyll-theme-cayman
+markdown: kramdown
+show_downloads: true
