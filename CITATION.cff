@@ -9,7 +9,7 @@ authors:
   - name: "The World Bank"
 version: "0.1.0rc1"
 license: MIT
-repository-code: "https://github.com/arizagusti/GRAS"
+repository-code: "https://github.com/worldbank/GRAS"
 keywords:
   - anticorruption
   - governance
